@@ -23,8 +23,6 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
         }
     }
     
-    printf("%d\n", answer[0]);
-    printf("%d\n", answer[1]);
     *returnSize = 0;
     return NULL;
 }
